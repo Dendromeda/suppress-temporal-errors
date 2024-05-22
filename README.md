@@ -1,4 +1,4 @@
-# suppress-temporal-errors
+# suppresserrors
 
 A simple temporal logger middleware that lets you set some activity error types to be logged as info instead of error. This is intended to be used when you have certain activities using the built-in activity retry, for example when polling something. This way you will not pollute your error logs with expected stuff.
 
